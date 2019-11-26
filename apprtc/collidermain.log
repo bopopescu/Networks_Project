@@ -1,0 +1,29 @@
+nohup: ignoring input
+2019/11/20 02:31:23 Starting collider: tls = true, port = 8089, room-server=http://10.0.2.15:8080
+2019/11/20 03:30:23 http: TLS handshake error from 10.0.2.15:43916: remote error: tls: unknown certificate
+2019/11/20 03:30:23 http: TLS handshake error from 10.0.2.15:43914: remote error: tls: unknown certificate
+2019/11/20 03:30:23 http: TLS handshake error from 10.0.2.15:43922: remote error: tls: unknown certificate
+2019/11/20 03:30:23 http: TLS handshake error from 10.0.2.15:43924: remote error: tls: unknown certificate
+2019/11/20 03:30:23 http: TLS handshake error from 10.0.2.15:43926: remote error: tls: unknown certificate
+2019/11/20 03:30:28 http: TLS handshake error from 10.0.2.15:43928: remote error: tls: unknown certificate
+2019/11/20 03:30:28 http: TLS handshake error from 10.0.2.15:43930: remote error: tls: unknown certificate
+2019/11/20 03:30:28 http: TLS handshake error from 10.0.2.15:43932: remote error: tls: unknown certificate
+2019/11/20 03:30:29 http: TLS handshake error from 10.0.2.15:43936: remote error: tls: unknown certificate
+2019/11/20 03:30:29 http: TLS handshake error from 10.0.2.15:43934: remote error: tls: unknown certificate
+2019/11/20 03:30:29 http: TLS handshake error from 10.0.2.15:43938: remote error: tls: unknown certificate
+2019/11/20 03:30:59 http: TLS handshake error from 10.0.2.15:43918: EOF
+2019/11/20 03:31:11 http: TLS handshake error from [::1]:39800: EOF
+2019/11/20 03:31:38 http: TLS handshake error from [::1]:39872: EOF
+2019/11/20 03:31:38 http: TLS handshake error from [::1]:39874: remote error: tls: unknown certificate
+2019/11/20 03:31:38 http: TLS handshake error from [::1]:39876: remote error: tls: unknown certificate
+2019/11/20 03:31:38 http: TLS handshake error from [::1]:39878: remote error: tls: unknown certificate
+2019/11/20 03:31:41 http: TLS handshake error from [::1]:39880: remote error: tls: unknown certificate
+2019/11/20 03:31:41 http: TLS handshake error from [::1]:39882: remote error: tls: unknown certificate
+2019/11/20 03:31:41 http: TLS handshake error from [::1]:39884: remote error: tls: unknown certificate
+2019/11/20 03:31:44 http: TLS handshake error from [::1]:39886: remote error: tls: unknown certificate
+2019/11/20 03:31:44 http: TLS handshake error from [::1]:39888: remote error: tls: unknown certificate
+2019/11/20 03:31:44 http: TLS handshake error from [::1]:39890: remote error: tls: unknown certificate
+2019/11/20 03:42:30 http: TLS handshake error from 10.0.2.15:46408: remote error: tls: unknown certificate
+2019/11/20 03:42:30 http: TLS handshake error from 10.0.2.15:46406: remote error: tls: unknown certificate
+2019/11/20 03:43:27 http: TLS handshake error from 10.0.2.15:46438: remote error: tls: unknown certificate
+2019/11/20 03:43:27 http: TLS handshake error from 10.0.2.15:46440: remote error: tls: unknown certificate

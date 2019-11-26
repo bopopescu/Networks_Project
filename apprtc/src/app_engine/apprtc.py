@@ -44,10 +44,10 @@ def get_hd_default(user_agent):
 # iceServers will be filled in by the TURN HTTP request.
 def make_pc_config(ice_transports, ice_server_override):
   config = {
-  'iceServers': [],
-  'bundlePolicy': 'max-bundle',
-  'rtcpMuxPolicy': 'require'
-  };
+    'iceServers': [],
+    'bundlePolicy': 'max-bundle',
+    'rtcpMuxPolicy': 'require'
+  }
   if ice_server_override:
     config['iceServers'] = ice_server_override
   if ice_transports:
