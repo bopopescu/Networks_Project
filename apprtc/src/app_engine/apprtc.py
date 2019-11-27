@@ -44,7 +44,9 @@ def get_hd_default(user_agent):
 # iceServers will be filled in by the TURN HTTP request.
 def make_pc_config(ice_transports, ice_server_override):
   config = {
-    'iceServers': [],
+    'iceServers': [{"url": "stun:stun.l.google.com:19302"},
+                        {"url":"ninefingers@10.12.123.170", 
+                                          "credential":"youhavetoberealistic"}],
     'bundlePolicy': 'max-bundle',
     'rtcpMuxPolicy': 'require'
   }

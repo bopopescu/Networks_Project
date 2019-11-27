@@ -38,7 +38,8 @@ PATH: /bin
 PATH: /usr/games
 PATH: /usr/local/games
 PATH: /snap/bin
-PATH: /usr/local/go/bin
+PATH: /opt/spark/bin
+PATH: /opt/spark/sbin
 
 
 ## ----------- ##
@@ -593,7 +594,7 @@ configure:12449: checking for openssl/bio.h
 configure:12449: result: yes
 configure:12465: checking for library containing SSL_new
 configure:12496: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c  >&5
-/usr/bin/ld: /tmp/ccMpWKrr.o: in function `main':
+/usr/bin/ld: /tmp/ccCW156b.o: in function `main':
 /home/osboxes/Documents/Networks_Project/libevent-2.0.21-stable/conftest.c:36: undefined reference to `SSL_new'
 collect2: error: ld returned 1 exit status
 configure:12496: $? = 1
@@ -1530,7 +1531,7 @@ configure:13138: $? = 0
 configure:13138: result: yes
 configure:13138: checking for strlcpy
 configure:13138: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c  >&5
-/usr/bin/ld: /tmp/ccXdv2bL.o: in function `main':
+/usr/bin/ld: /tmp/ccXkRpqX.o: in function `main':
 /home/osboxes/Documents/Networks_Project/libevent-2.0.21-stable/conftest.c:102: undefined reference to `strlcpy'
 collect2: error: ld returned 1 exit status
 configure:13138: $? = 1
@@ -1687,7 +1688,7 @@ configure:13138: $? = 0
 configure:13138: result: yes
 configure:13138: checking for arc4random
 configure:13138: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c  >&5
-/usr/bin/ld: /tmp/ccHvplW1.o: in function `main':
+/usr/bin/ld: /tmp/ccnpEtA8.o: in function `main':
 /home/osboxes/Documents/Networks_Project/libevent-2.0.21-stable/conftest.c:113: undefined reference to `arc4random'
 collect2: error: ld returned 1 exit status
 configure:13138: $? = 1
@@ -1811,7 +1812,7 @@ configure: failed program was:
 configure:13138: result: no
 configure:13138: checking for arc4random_buf
 configure:13138: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c  >&5
-/usr/bin/ld: /tmp/ccdwsnG9.o: in function `main':
+/usr/bin/ld: /tmp/ccBi0JK5.o: in function `main':
 /home/osboxes/Documents/Networks_Project/libevent-2.0.21-stable/conftest.c:113: undefined reference to `arc4random_buf'
 collect2: error: ld returned 1 exit status
 configure:13138: $? = 1
@@ -1935,7 +1936,7 @@ configure: failed program was:
 configure:13138: result: no
 configure:13138: checking for issetugid
 configure:13138: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c  >&5
-/usr/bin/ld: /tmp/ccR6Hg0g.o: in function `main':
+/usr/bin/ld: /tmp/ccLSGS98.o: in function `main':
 /home/osboxes/Documents/Networks_Project/libevent-2.0.21-stable/conftest.c:113: undefined reference to `issetugid'
 collect2: error: ld returned 1 exit status
 configure:13138: $? = 1
@@ -2119,7 +2120,7 @@ configure:13557: $? = 0
 configure:13557: result: yes
 configure:13641: checking for port_create
 configure:13641: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c  >&5
-/usr/bin/ld: /tmp/cc3jQ7ZX.o: in function `main':
+/usr/bin/ld: /tmp/ccHYl0Ak.o: in function `main':
 /home/osboxes/Documents/Networks_Project/libevent-2.0.21-stable/conftest.c:128: undefined reference to `port_create'
 collect2: error: ld returned 1 exit status
 configure:13641: $? = 1
@@ -5347,7 +5348,7 @@ conftest.c:120:22: warning: null argument where non-null required (argument 3) [
 conftest.c:118:15: warning: 'th' is used uninitialized in this function [-Wuninitialized]
  pthread_t th; pthread_join(th, 0);
                ^~~~~~~~~~~~~~~~~~~
-/usr/bin/ld: /tmp/ccU9YhSj.o: in function `main':
+/usr/bin/ld: /tmp/cciuuxY0.o: in function `main':
 /home/osboxes/Documents/Networks_Project/libevent-2.0.21-stable/conftest.c:118: undefined reference to `pthread_join'
 /usr/bin/ld: /home/osboxes/Documents/Networks_Project/libevent-2.0.21-stable/conftest.c:119: undefined reference to `__pthread_register_cancel'
 /usr/bin/ld: /home/osboxes/Documents/Networks_Project/libevent-2.0.21-stable/conftest.c:120: undefined reference to `pthread_create'
